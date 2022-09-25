@@ -60,7 +60,6 @@ img {
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
-	outline: 3px solid red;
 }
 
 .list {
@@ -97,8 +96,6 @@ img {
 /*-------------------------------------header---------------------------------------------*/
 
 .header {
-	padding-top: 24px;
-	padding-bottom: 25px;
 	border-bottom: 1px solid var(--border-header-color);
 }
 
@@ -204,7 +201,7 @@ img {
 	line-height: 1.88;
 	letter-spacing: 0.06em;
 	color: var(--primary-light-color);
-	border-color: transparent;
+	border: none;
 
 	padding: 10px 32px;
 }
@@ -233,7 +230,7 @@ img {
 	text-transform: uppercase;
 	color: var(--secondary-text-color);
 
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .features-text {
@@ -307,7 +304,7 @@ img {
 }
 
 .address {
-	padding-top: 20px;
+	margin-top: 20px;
 }
 
 .address-map-item {
@@ -337,7 +334,7 @@ img {
 .filters-list {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 34px;
+	margin-bottom: 50px;
 	gap: 8px;
 }
 
@@ -394,7 +391,7 @@ img {
 	letter-spacing: 0.06em;
 	color: var(--secondary-text-color);
 
-	padding-bottom: 4px;
+	margin-bottom: 4px;
 }
 
 .projects-text {
